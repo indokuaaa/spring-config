@@ -1,5 +1,5 @@
 indoku:
-	profiles: i'm dev
+	profiles: i'm rel
 	said :
 		first : Hello
 		second : world
