@@ -1,5 +1,26 @@
-indoku:
-profile: i'm dev
-said :
-first : Hello!
-second : world!
+devguide :
+  greeting : "hello default"
+
+---
+
+spring:
+  profiles : local
+  
+devguide :  
+  greeting : "hello local"
+
+---
+
+spring:
+  profiles : dev
+  
+devguide :  
+  greeting : "hello dev"
+
+---
+
+spring:
+  profiles : release
+  
+devguide :  
+  greeting : "hello release"
